@@ -1,0 +1,12 @@
+[2026-06-06T13:44:18.601Z] [INFO] === Agent start (mode=DRY-RUN) ===
+[2026-06-06T13:44:18.964Z] [INFO] Audit: status=OK equity=$54.88 positions=0 totalOpenRisk=0% dailyPnl=0%
+[2026-06-06T13:44:20.291Z] [INFO] Scan: 18 symbols, 0 long / 12 short. Report: /Users/tangguhriyadi/Documents/ai agent trader/output/scan_market/scan-2026-06-06T13-44.md
+[2026-06-06T13:44:20.291Z] [INFO] Pick: Sell ETHUSDT (bias=SHORT conviction=4.5 price=1561.01)
+[2026-06-06T13:44:20.501Z] [ERROR] Dry-run blocked for ETHUSDT: Computed qty 0 < exchange min 0.01. Tighten the SL (smaller entry→SL distance) or increase risk.
+[2026-06-06T13:47:31.784Z] [INFO] === Agent start (mode=DRY-RUN) ===
+[2026-06-06T13:47:32.110Z] [INFO] Audit: status=OK equity=$54.87 positions=0 totalOpenRisk=0% dailyPnl=0%
+[2026-06-06T13:47:33.365Z] [INFO] Scan: 18 symbols, 1 long / 10 short. Report: /Users/tangguhriyadi/Documents/ai agent trader/output/scan_market/scan-2026-06-06T13-47.md
+[2026-06-06T13:47:33.366Z] [INFO] Candidates (by conviction): ETHUSDT/SHORT/4.5, NEARUSDT/SHORT/4.5, OPUSDT/SHORT/3.5, BNBUSDT/SHORT/3, SOLUSDT/SHORT/2.5
+[2026-06-06T13:47:33.568Z] [WARN] Skip ETHUSDT (conviction=4.5): Computed qty 0 < exchange min 0.01. Tighten the SL (smaller entry→SL distance) or increase risk.
+[2026-06-06T13:47:33.773Z] [INFO] Dry-run OK: Sell NEARUSDT qty=5.8 entry=1.8876 SL=1.982 TP=1.6988 lev=5x risk=$0.55
+[2026-06-06T13:47:33.773Z] [INFO] [DRY-RUN] Not placing a live order. would Sell 5.8 NEARUSDT @ 1.8876 (SL 1.982 / TP 1.6988)

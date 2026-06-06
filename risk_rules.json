@@ -1,0 +1,8 @@
+{
+  "maxRiskPerTradePct": 3,
+  "maxLeverage": 5,
+  "maxConcurrentPositions": 2,
+  "maxTotalOpenRiskPct": 10,
+  "dailyLossLimitPct": 15,
+  "_notes": "Shared risk policy for the trading skills. null = rule disabled. Percentages are of account equity. Enforced as a hard gate by place_trade; audited/reported by risk_management."
+}

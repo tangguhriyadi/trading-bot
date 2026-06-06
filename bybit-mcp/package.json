@@ -1,0 +1,16 @@
+{
+  "name": "bybit-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Bybit v5 API — market data, account, and trading",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node src/check.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "bybit-api": "^4.1.0",
+    "zod": "^3.23.8"
+  }
+}
